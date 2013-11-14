@@ -8,7 +8,7 @@ bank_balance = float(input_data[1])
 
 debit_amount = withdraw_amount + bank_transaction_charge
 
-if withdraw_amount%5==0 and debit_amount <= bank_balance:
+if withdraw_amount%5==0 and debit_amount<=bank_balance:
   bank_balance -= debit_amount
 
 print ("%.2f" % bank_balance)
