@@ -4,7 +4,7 @@ def merge(input_array, beg, mid, end):
   listB = input_array[mid+1:end+1]
   listC=[]
   while len(listA)>0 and len(listB)>0:
-    if(listA[0]<listB[0]):
+    if(listA[0] < listB[0]):
       listC.append(listA[0])
       listA.pop(0)
     else:
