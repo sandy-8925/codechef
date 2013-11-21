@@ -10,8 +10,7 @@ def merge(input_array, beg, mid, end):
     else:
       listC.append(listB[0])
       listB.pop(0)
-  listC+=listA
-  listC+=listB
+  listC += listA + listB
   input_array[beg:end+1]=listC
   pass
 
